@@ -3,8 +3,8 @@
   "version": "4.0.0",
   "description": "handle circular references when stringifying and parsing - ESM version",
   "type": "module",
-  "files": ["src"],
-  "exports": "./src/index.js",
+  "files": ["lib"],
+  "exports": "./lib/index.js",
   "engines": { "node": ">=14.16" },
   "scripts": {
     "benchmark": "node perf/bench > perf/results.txt",
