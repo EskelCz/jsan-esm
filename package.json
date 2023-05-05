@@ -1,5 +1,5 @@
 {
-  "name": "jsan",
+  "name": "jsan-esm",
   "version": "4.0.0",
   "description": "handle circular references when stringifying and parsing - ESM version",
   "type": "module",
