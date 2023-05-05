@@ -1,7 +1,5 @@
-jsan
+JSAN - ESM
 ===
-
-[![Build Status](https://travis-ci.org/kolodny/jsan.svg?branch=master)](https://travis-ci.org/kolodny/jsan)
 
 ### JavaScript "All The Things" Notation  
 ![jsan](https://i.imgur.com/IdKDIB6.png)
@@ -29,7 +27,7 @@ with circular references
 ### Usage
 
 ```js
-var jsan = require('jsan');
+import jsan from 'jsan'
 
 var obj = {};
 obj['self'] = obj;
